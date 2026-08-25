@@ -1,2 +1,2 @@
-# Proyectos-Java
-Proyectos pro de java lol
+# Trabajoss Computacion
+trabajos pros
