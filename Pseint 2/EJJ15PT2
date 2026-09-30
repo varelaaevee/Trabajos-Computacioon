@@ -1,0 +1,20 @@
+Algoritmo EJ15pt2
+	Escribir "Escribir nota del Estudiante"
+	
+	Leer a
+	
+	Segun a Hacer
+		10, 9:
+			Escribir "Excelente"
+		8, 7:
+			Escribir "Muy Bueno"
+		6:
+			Escribir "Aprobado"
+		5, 4, 3, 2, 1:
+			Escribir "Insuficiente"
+		De Otro Modo:
+			Escribir "el número que escribió no existe para que el Estudiante apruebe la materia"
+	Fin Segun
+	
+FinAlgoritmo
+
