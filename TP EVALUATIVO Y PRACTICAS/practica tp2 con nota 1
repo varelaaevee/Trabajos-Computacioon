@@ -1,0 +1,28 @@
+Algoritmo practica_tp2_con_nota1
+		Definir numero Como entero
+		Escribir "Eliga un numero de personaje para comenzar:"
+		Escribir "Guerrero"
+		Escribir "Mago"
+		Escribir "Arquero"
+		leer numero
+		Segun numero Hacer
+			1:
+				Escribir "Guerrero:"
+				Escribir "fuerza"
+				Escribir "Provocacion"
+				Escribir "Defensa"
+				
+			2:
+				Escribir "Mago:"
+				Escribir "Poderes"
+				Escribir "Volar"
+				Escribir "Hechizar"
+			3:
+				Escribir "Arquero"
+				Escribir "Agilidad"
+				Escribir "Rapidez"
+				Escribir "Estratega"
+			De Otro Modo:
+				Escribir "No se encuentra disponible"
+		Fin Segun
+FinAlgoritmo
