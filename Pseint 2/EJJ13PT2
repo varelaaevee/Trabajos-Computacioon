@@ -1,0 +1,14 @@
+Algoritmo EJ13pt2
+	Escribir "ingresar numero de mes"
+	leer a
+	Segun a Hacer
+		4 ,6 ,9 , 11:
+			Escribir "tiene 30 dias"
+		1 ,3 , 5, 7, 8, 10, 12:
+			Escribir "tiene 31 dias"
+		2:
+			Escribir "tiene 28 dias"
+		De Otro Modo:
+			Escribir "no existe down"
+	Fin Segun
+FinAlgoritmo
