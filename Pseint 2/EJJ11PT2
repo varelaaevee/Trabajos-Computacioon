@@ -1,0 +1,14 @@
+Algoritmo EJ11pt2
+	Escribir "ingresa EL monto de dolares"
+	leer a
+	Escribir "Ingrese el tipo de cambio q desea"
+	leer b
+	Segun b Hacer
+		1:
+			Escribir a*1429,55 "PESOS"
+		2:
+			Escribir a*0,86 "EUROS"
+		3:
+			Escribir a*5,07 "REALES"
+	Fin Segun	
+FinAlgoritmo
