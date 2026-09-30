@@ -1,0 +1,8 @@
+Algoritmo EJ7
+	definir a, b, c, promedio Como Real
+	escribir "ingresar número"
+	Leer a
+	leer b
+	leer c
+	Escribir "promedio: ", (a+b+c)/3 
+Fin Algoritmo
