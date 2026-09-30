@@ -1,0 +1,14 @@
+Algoritmo EJ7pt2
+	Definir a, precio Como Real
+	Escribir "Cantidad de llantas"
+	leer a
+	Si a <  5 Entonces
+		precio = 800
+		Escribir " el total es," a * precio
+	SiNo
+		precio = 700
+		Escribir "El total es, " a * precio
+		
+	Fin Si
+	
+Fin Algoritmo
