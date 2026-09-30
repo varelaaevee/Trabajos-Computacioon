@@ -1,0 +1,18 @@
+Algoritmo EJ10pt2
+	Escribir "ingresa un numero del 1 al 4"
+	leer a
+	Segun a Hacer
+		1:
+			Escribir "Agua: $10"
+		2:
+			Escribir "Cafe: $30"
+		3:
+			Escribir "Jugo: $50"
+		4:
+			Escribir "Refresco: $90"
+		
+		De Otro Modo:
+			Escribir  "Error!!!!!"
+	Fin Segun
+FinAlgoritmo
+	
