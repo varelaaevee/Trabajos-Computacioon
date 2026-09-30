@@ -1,0 +1,58 @@
+Algoritmo tp_evaluativo
+	Definir numero, usuarios, notificaciones, hora, total Como entero 
+	Escribir "Elija numero de red social deseada"
+	Escribir "Instagram"
+	Escribir "Youtube"
+	Escribir "Tiktok"
+	leer numero
+	Segun numero Hacer
+		1:
+			escribir "formato recomendado en Instagram: Vertical 9:16 1080 x 1920 píxeles"
+		2:
+			Escribir "formato recomendado para videos largos en Youtube: Horizontal 16:9 (1920 x 1080 px)."
+		3:
+			escribir "formato recomendado en Tiktok: Vertical 9:16, 1080 px por 1920 px."
+		De Otro Modo:
+			escribir "no fue encontrada la red social deseada"
+	Fin Segun
+	
+	escribir "Elija un numero del selector de privacidad"
+	Escribir "Privado"
+	Escribir "Amigos"
+	Escribir "Publico"
+	leer numero
+	Segun numero Hacer
+		1:
+			Escribir "Privado: Solo lo ves tu"
+		2:
+			Escribir "Amigos:  Solo lo ven tu y tus amigos"
+		3:
+			escribir "Publico: Es visible para todos"
+		De Otro Modo:
+			Escribir "No existe tal configuracion "
+	Fin Segun
+
+	Escribir "Cantidad de usuarios que dieron like"
+	leer usuarios
+	Para usuarios= 1 Hasta 15 Con Paso 1 Hacer
+		Escribir "Like"
+	Fin Para
+	
+	total= 0
+	Para hora= 1 Hasta 24 Con Paso 1 Hacer
+			Escribir "Ingrese la Cantidad de notificaciones por hora: ", hora
+			leer notificaciones
+			total= total+ notificaciones
+		Fin Para
+		Escribir "Total de notificaciones en las ultimas 24 horas: ",  total
+	FinPara
+	
+	Escribir "Queres ver la noticia"
+	leer respuesta
+	Mientras respuesta = "si" Hacer
+		Escribir "La NASA confirma el hallazgo de agua helada en un nuevo cráter de Marte Un robot explorador detectó reservas congeladas a poca profundidad, lo que facilita el plan para futuras misiones humanas.El robot explorador de la NASA logró perforar la superficie de un cráter joven en Marte y confirmó la presencia de grandes masas de agua en estado sólido. Este descubrimiento es clave para la ciencia. Los científicos explicaron que el hielo se encuentra a solo unos centímetros del suelo, lo que permitirá a los futuros astronautas extraer agua para consumir y generar combustible directamente en el planeta rojo"
+		Escribir "Queres ver la noticia"
+		leer respuesta 
+	Fin Mientras
+FinAlgoritmo
+
