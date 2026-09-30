@@ -1,0 +1,16 @@
+Algoritmo EJ5
+	definir a, b, c, promedio Como Real
+	escribir "ingresar numero"
+	Leer a
+	leer b
+	leer c
+	 promedio =  (a+b+c)/3
+	Si promedio >= 6 Entonces
+		Escribir "Aprobaste"
+	SiNo
+		Escribir "Diciembre"
+	Fin Si
+	
+	
+	
+FinAlgoritmo
