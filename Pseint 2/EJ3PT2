@@ -1,0 +1,9 @@
+Algoritmo EJ3pt2
+	Escribir "dame el monto"
+	Leer a
+	Si a >=100  Entonces
+		escribir a-(a*0.15)
+	SiNo
+		escribir "no se aplica el descuento"
+	Fin Si
+Fin Algoritmo
