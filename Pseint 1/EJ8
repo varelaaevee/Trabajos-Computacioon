@@ -1,0 +1,6 @@
+Algoritmo EJ8
+	definir millas Como Real
+	escribir "Dame una distancia x en millas"
+	Leer millas
+	Escribir millas*1,6
+Fin Algoritmo
