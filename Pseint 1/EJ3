@@ -1,0 +1,7 @@
+Algoritmo EJ3
+	escribir "ingresar altura"
+	Leer a
+	escribir "ingresar base"
+	leer b
+	escribir a*b 
+FinAlgoritmo
