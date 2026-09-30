@@ -1,0 +1,6 @@
+Algoritmo EJ 1
+	Leer a
+	leer b
+	escribir a+b
+	
+FinAlgoritmo
