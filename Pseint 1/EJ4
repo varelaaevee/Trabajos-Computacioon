@@ -1,0 +1,7 @@
+Algoritmo EJ4
+	escribir "ingresar base"
+	Leer a
+	escribir "ingresar altura"
+	leer b
+	escribir PI * (a*a) *b
+FinAlgoritmo
