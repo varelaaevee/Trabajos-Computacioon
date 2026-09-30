@@ -1,0 +1,17 @@
+Algoritmo practica_tp2_con_nota2
+	Escribir "Defina la cantidad de monedas disponible"
+	Escribir "100"
+	Escribir "200"
+	Escribir "300"
+	leer numero
+	Segun numero Hacer
+		100:
+			escribir "Espada"
+		200:
+			escribir "Armadura"
+		300:
+			Escribir "Pocion"
+		De Otro Modo:
+			Escribir "No se encuentra el objeto disponible"
+	Fin Segun
+FinAlgoritmo
