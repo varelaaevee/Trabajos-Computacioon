@@ -1,0 +1,14 @@
+Algoritmo EJ5pt2
+	Definir A, b Como Real
+	Escribir "año de nacimiento"
+	Leer a
+	Escribir "Año actual"
+	Leer b
+	Si a mod 4=0 Entonces
+		Escribir "nacio en año bisiesto"
+	SiNo
+		Escribir "no nacio en año bisiesto"
+	Fin Si
+	
+	
+Fin Algoritmo
