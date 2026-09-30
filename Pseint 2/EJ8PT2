@@ -1,0 +1,18 @@
+lgoritmo EJ8pt2
+	Definir a, b, c, suma Como Real
+	Escribir "indicar numeros"
+	Leer a
+	Leer b
+	leer c
+	suma = a+b 
+	Si suma < c Entonces
+		Escribir "es menor"
+	SiNo
+		Si suma = c Entonces
+			Escribir "es igual"
+		SiNo
+			Escribir "es mayor"
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo
