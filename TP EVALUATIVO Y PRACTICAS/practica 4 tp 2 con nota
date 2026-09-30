@@ -1,0 +1,11 @@
+Algoritmo practica_tp_con_nota4
+	definir vida Como Entero
+	Escribir "ingrese su total de vida"
+	leer vida
+	Mientras vida >= 0 Hacer
+		Escribir "cuidate mas lol"
+		leer golpe
+		vida= vida-golpe
+	Fin Mientras
+	Escribir "t re cabio JAJAKAJAJA"
+FinAlgoritmo
