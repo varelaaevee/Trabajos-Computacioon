@@ -1,0 +1,12 @@
+Algoritmo EJ6
+	definir a, b, resta, multiplicacion, division Como Real
+	escribir "ingresar numero"
+	Leer a
+	leer b
+	resta = a+b
+	multiplicacion= a*b
+	division= a/b
+	escribir resta
+	escribir multiplicacion
+	escribir division
+FinAlgoritmo
