@@ -1,4 +1,4 @@
-Algoritmo tp_evaluativo
+Algoritmo tp_evaluativot1
 	Definir numero, usuarios, notificaciones, hora, total Como entero 
 	Escribir "Elija numero de red social deseada"
 	Escribir "Instagram"
