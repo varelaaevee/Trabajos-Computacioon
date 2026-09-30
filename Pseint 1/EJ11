@@ -1,0 +1,8 @@
+Algoritmo EJ11
+	definir cobro, incremento Como Real
+	escribir "cuanto cobras?"
+	leer cobro
+	incremento = cobro * 1.25
+	escribir "el nuevo saldo es ", incremento
+	
+Fin Algoritmo
