@@ -1,0 +1,10 @@
+Algoritmo practica_tp_con_nota5
+	DEFINIR energia Como Entero
+	escribir "Cargando tu energia!"
+	i=0
+	Para i= 0 Hasta 100 Con Paso 10 Hacer
+		Escribir  "cargando energia pro.." , i "%"
+		
+	Fin Para
+	Escribir "energia al 100%!!!"
+FinAlgoritmo
