@@ -1,0 +1,9 @@
+Algoritmo EJ10
+	definir a , b , hipotenusa Como Real
+	escribir "cateto a"
+	leer a
+	Escribir "cateto b"
+	leer b 
+	hipotenusa =raiz( a*a + b*b)
+	Escribir hipotenusa
+Fin Algoritmo
