@@ -1,0 +1,11 @@
+Algoritmo practica_tp_con_nota3
+	definir cont , experiencia, acumulador como entero
+	cont= cont +1
+	escribir "BIEEN, derrotaste a 10 enemigoss q proo"
+	Para i=0 Hasta 9 Con Paso 1 Hacer
+		Escribir "cuanta experiencia t dio?"
+		leer experiencia
+		acumulador= acumulador + experiencia
+	 Fin Para
+Escribir "Felicidades, tu exp es " acumulador total
+FinAlgoritmo
