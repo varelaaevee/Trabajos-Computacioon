@@ -1,10 +1,5 @@
-Algoritmo EJ1pt2
-	Escribir "ingresar edad"
-	leer a 
-	Si a >18 Entonces
-		Escribir "puede votar yei"
-	SiNo
-		Escribir "no puede votar lol"
-	Fin Si
+Algoritmo EJ2PT2
+	Leer a
+	escribir a es par o impar
+FinAlgoritmo
 
-Fin Algoritmo
