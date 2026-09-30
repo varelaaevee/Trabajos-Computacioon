@@ -1,2 +1,0 @@
-# Trabajoss Computacion
-trabajos pros
