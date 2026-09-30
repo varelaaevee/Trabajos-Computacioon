@@ -1,0 +1,12 @@
+Algoritmo EJ4pt2
+	Definir A Como Real
+	Escribir "temperatura"
+	Leer a
+	Si a <= 10  Entonces
+		escribir "hace frio"
+	SiNo
+		Si a >= 25 Entonces
+		escribir "hace calor"
+	Fin Si
+	Fin Si
+Fin Algoritmo
