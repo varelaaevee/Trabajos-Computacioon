@@ -1,0 +1,7 @@
+Algoritmo EJ9
+	definir km, millas Como Real
+	escribir "distancia en km equivalente a millas"
+	Leer millas
+	km = millas*1.6
+	escribir km
+Fin Algoritmo
