@@ -1,0 +1,22 @@
+Algoritmo EJ9PT2
+	Escribir "ingresa un numero del 1 al 7"
+	leer a
+	Segun a Hacer
+		1:
+			Escribir "Lunes"
+		2:
+			Escribir "martes"
+		3:
+			Escribir "miercoles"
+		4:
+			Escribir "jueves"
+		5:
+			Escribir "Viernes"
+		6:
+			Escribir "sabado"
+		7: 
+			Escribir "domingo"
+		De Otro Modo:
+			Escribir  "Error!!!!!"
+	Fin Segun
+FinAlgoritmo
