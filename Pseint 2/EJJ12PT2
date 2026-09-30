@@ -1,0 +1,17 @@
+Algoritmo EJ12pt2
+	Escribir "Ingrese categoria de empleado"
+	leer a
+	Segun a Hacer
+		1:
+			Escribir "1000"
+		2:
+			Escribir "2000"
+		3:
+			Escribir "3500"
+		4:
+			Escribir "5000"
+			
+		De Otro Modo:
+			Escribir "error"
+	Fin Segun	
+FinAlgoritmo
