@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alfajor Milka Oreo</title>
+    <link rel="stylesheet" href="alfajor.css">
+</head>
+<body>
+
+    <!-- Título -->
+    <h1>Milka Oreo 💜</h1>
+
+    <!-- Menú -->
+    <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#producto">Producto</a>
+        <a href="#razones">¿Por qué comprarlo?</a>
+    </div>
+
+    <!-- Presentación -->
+    <div class="inicio" id="inicio">
+        <h2>¡Probá el alfajor Milka Oreo!</h2>
+
+        <p>
+            Si te gustan las Oreo y el chocolate,
+            este alfajor es para vos. Es una combinación
+            muy rica para disfrutar en cualquier momento.
+        </p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdr5RLSiTOHtx-PAEmIxTv9SHT-TZT2PvnpjEGqDx61g&s=10" alt="Alfajor Milka Oreo">
+    </div>
+
+    <!-- Información -->
+    <div class="producto" id="producto">
+        <h2>¿Qué tiene de especial?</h2>
+
+        <p>
+            El alfajor Milka Oreo combina el sabor
+            del chocolate con las clásicas galletitas Oreo.
+            Es ideal para cuando tenés ganas de comer
+            algo dulce o acompañar una merienda.
+        </p>
+    </div>
+
+    <!-- Razones -->
+    <div class="razones" id="razones">
+        <h2>¿Por qué elegirlo?</h2>
+
+        <h3>🍫 Su sabor</h3>
+        <p>La combinación de chocolate y Oreo que tanto nos gusta.</p>
+
+        <h3>💜 Para cualquier momento</h3>
+        <p>Podés disfrutarlo en una merienda o cuando tengas un antojo.</p>
+
+        <h3>🍪 Algo diferente</h3>
+        <p>Una opción distinta a los alfajores de siempre.</p>
+    </div>
+
+    <!-- Final -->
+    <div class="final">
+        <h2>¡No te quedes sin probarlo!</h2>
+        <p>¡Dale una oportunidad al Milka Oreo!</p>
+    </div>
+
+</body>
+</html>
+
