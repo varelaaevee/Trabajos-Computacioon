@@ -1,0 +1,17 @@
+Algoritmo notasss
+	definir i Como Entero
+	definir suma, promedio, notass Como Real
+	dimension notass[4] 
+	suma= 0
+	Para i=1 Hasta 4 Con Paso 1 Hacer
+		Escribir "Ingrese nota del alumno " , i ,":"
+		leer notass[i]
+		suma = suma + notass [i]
+	Fin Para
+	promedio= suma/4
+	Escribir "Notas ingresadas"
+	Para i=1 Hasta 4 Con Paso 1 Hacer
+		escribir "Nota " , i , ": " notass[i]
+	Fin Para
+Escribir "promedio final: ", promedio
+FinAlgoritmo
