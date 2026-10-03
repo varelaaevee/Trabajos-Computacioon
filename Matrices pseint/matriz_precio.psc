@@ -10,7 +10,7 @@ Algoritmo matriz_precio
         FinPara
     FinPara
 	
-    Escribir "Ingrese el factor de aumento"
+    Escribir "Ingrese el aumento"
     Leer aumento
 	
     Para i <- 1 Hasta 2 Hacer
