@@ -5,7 +5,7 @@ Algoritmo matriz_precio
 	
     Para i <- 1 Hasta 2 Hacer
         Para j <- 1 Hasta 4 Hacer
-            Escribir "Ingrese el precio del producto:"
+            Escribir "Ingrese precio:"
             Leer precios[i,j]
         FinPara
     FinPara
@@ -19,7 +19,7 @@ Algoritmo matriz_precio
         FinPara
     FinPara
 	
-    Escribir "Precios actualizados:"
+    Escribir "Precios finales:"
 	
     Para i <- 1 Hasta 2 Hacer
         Para j <- 1 Hasta 4 Hacer
