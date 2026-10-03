@@ -7,17 +7,16 @@
 </head>
 <body>
 
-    <!-- Título -->
     <h1>Milka Oreo 💜</h1>
 
-    <!-- Menú -->
+
     <div class="menu">
         <a href="#inicio">Inicio</a>
         <a href="#producto">Producto</a>
         <a href="#razones">¿Por qué comprarlo?</a>
     </div>
 
-    <!-- Presentación -->
+ 
     <div class="inicio" id="inicio">
         <h2>¡Probá el alfajor Milka Oreo!</h2>
 
@@ -30,7 +29,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdr5RLSiTOHtx-PAEmIxTv9SHT-TZT2PvnpjEGqDx61g&s=10" alt="Alfajor Milka Oreo">
     </div>
 
-    <!-- Información -->
+
     <div class="producto" id="producto">
         <h2>¿Qué tiene de especial?</h2>
 
@@ -42,7 +41,7 @@
         </p>
     </div>
 
-    <!-- Razones -->
+   
     <div class="razones" id="razones">
         <h2>¿Por qué elegirlo?</h2>
 
@@ -56,7 +55,6 @@
         <p>Una opción distinta a los alfajores de siempre.</p>
     </div>
 
-    <!-- Final -->
     <div class="final">
         <h2>¡No te quedes sin probarlo!</h2>
         <p>¡Dale una oportunidad al Milka Oreo!</p>
