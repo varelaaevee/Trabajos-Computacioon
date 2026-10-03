@@ -11,19 +11,19 @@ Algoritmo matriz_buscar
         FinPara
     FinPara
 	
-    Escribir "Ingrese el numero que desea buscar:"
+    Escribir "Ingrese el numero que busca:"
     Leer numero
 	
     Para i <- 1 Hasta 3 Hacer
         Para j <- 1 Hasta 4 Hacer
             Si matriz[i,j] = numero Entonces
-                Escribir "Encontrado en fila ", i, " columna ", j
+                Escribir "Encontrado en la fila ", i, " columna ", j
                 encontrado <- Verdadero
             FinSi
         FinPara
     FinPara
 	
     Si encontrado = Falso Entonces
-        Escribir "El numero no se encontro"
+        Escribir "El numero no se encontro juju"
     FinSi
 FinAlgoritmo
