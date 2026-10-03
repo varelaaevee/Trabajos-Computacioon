@@ -6,7 +6,7 @@ Algoritmo matriz_pareimpar
 	
     Para i <- 1 Hasta 3 Hacer
         Para j <- 1 Hasta 3 Hacer
-            Escribir "Ingrese un numero positivo:"
+            Escribir "Ingrese un numero :"
             Leer matriz[i,j]
 			
             Si matriz[i,j] mod 2 = 0 Entonces
@@ -17,6 +17,6 @@ Algoritmo matriz_pareimpar
         FinPara
     FinPara
 	
-    Escribir "Cantidad de pares: ", pares
-    Escribir "Cantidad de impares: ", impares
+    Escribir "Pares encontrados: ", pares
+    Escribir "Impares encontrados: ", impares
 FinAlgoritmo
