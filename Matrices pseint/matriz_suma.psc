@@ -11,5 +11,5 @@ Algoritmo matriz_suma
         FinPara
     FinPara
 	
-    Escribir "La suma total es: ", suma
+    Escribir "La suma es: ", suma
 FinAlgoritmo
