@@ -14,5 +14,5 @@ Algoritmo matriz_contador
         FinPara
     FinPara
 	
-    Escribir "La cantidad de ceros es: ", contador
+    Escribir "La cantidad de ceros q se encontro es: ", contador
 FinAlgoritmo
