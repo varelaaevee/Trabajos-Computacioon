@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Anime</title>
+    <link rel="stylesheet" href="anime.css">
+</head>
+
+<body>
+
+ 
+    <header>
+        <h1>Universo Anime!</h1>
+        <p>Tu sitio web de confianza para descubrir los mejores animes del momento!</p>
+    </header>
+
+    <main>
+        <h2>Los animes mas vistos de esta semana!</h2>
+
+        <section class="contenedor">
+
+            <div class="tarjeta one-piece">
+                <img src="https://i.pinimg.com/736x/05/b8/d5/05b8d5a81b11973b825df24f43902c3a.jpg" alt="One Piece">
+                <h3>One Piece</h3>
+                <p>
+                    La historia comienza con la ejecución de Gol D. Roger, el Rey de los Piratas, quien reta al mundo a encontrar su tesoro, el One Piece, en la Gran Ruta Marítima. Años después, Monkey D. Luffy sueña con ser el rey de los piratas y tras comer una Fruta del Diablo, estira su cuerpo como goma. Luffy debe cruzar el océano peligroso y reclutar a su tripulación, los Piratas del Sombrero de Paja, cada uno con un sueño único.
+                </p>
+
+                <details>
+                 <summary>
+                     <span class="ver-mas">Ver más</span>
+                     <span class="ver-menos">Ver menos</span>
+                 </summary>
+
+                 <div class="informacion">
+                     <p><strong>Autor:</strong> Eiichiro Oda</p>
+                     <p><strong>Episodios:</strong> 1000+</p>
+                     <p><strong>Género:</strong> Acción, Aventura, Comedia, Fantasía</p>
+                     <p><strong>Dónde verlo:</strong> Netflix</p>
+                     <a href="https://www.netflix.com/ar/title/80217863" target="_blank" rel="noopener noreferrer">
+                            Ver anime
+                     </a>
+                 </div>
+                </details>
+
+            </div>
+
+            
+            <div class="tarjeta my-hero">
+                <img src="https://i.pinimg.com/736x/94/ea/f3/94eaf36ebaef4a16cc0931b1dcdf2f27.jpg" alt="My Hero Academia">
+                <h3>My Hero Academia</h3>
+                <p>
+                    En un mundo donde el 80% de la población tiene superpoderes llamados "dones", Izuku Midoriya nace normal. Su vida cambia al conocer a All Might,quien le da el don One For All. Izuku entra a la Academia U.A. mientras una facción de villanos amenaza la paz.
+                </p>
+                <details>
+                 <summary>
+                     <span class="ver-mas">Ver más</span>
+                     <span class="ver-menos">Ver menos</span>
+                 </summary>
+
+                 <div class="informacion">
+                     <p><strong>Autor:</strong> Kohei Horikoshi</p>
+                     <p><strong>Episodios:</strong> 170</p>
+                     <p><strong>Género:</strong> Acción, Aventura, Comedia</p>
+                     <p><strong>Dónde verlo:</strong> Crunchyroll</p>
+
+                     <a href="https://www.crunchyroll.com/es/series/G6NQ5DWZ6/my-hero-academia" target="_blank" rel="noopener noreferrer">
+                            Ver anime
+                     </a>
+                 </div>
+                </details>
+
+            </div>
+
+            <!-- JUJUTSU KAISEN -->
+            <div class="tarjeta jujutsu">
+                <img src="https://i.pinimg.com/1200x/99/ef/83/99ef837028463d4f940b63c2b288222b.jpg" alt="Jujutsu Kaisen">
+                <h3>Jujutsu Kaisen</h3>
+                <p>
+                    En un mundo donde las maldiciones amenazan a la humanidad, un grupo de estudiantes de la Academia Jujutsu se enfrenta a ellas. Yuji Itadori, con fuerza sobrehumana, consume un objeto maldito y se convierte en objetivo. Yuji descubre su poder y debe aprender a controlarlo.
+                </p>
+                <details>
+                    <summary>
+                        <span class="ver-mas">Ver más</span>
+                        <span class="ver-menos">Ver menos</span>
+                    </summary>
+
+                    <div class="informacion">
+                        <p><strong>Autor:</strong> Gege Akutami</p>
+                        <p><strong>Episodios:</strong> 24</p>
+                        <p><strong>Género:</strong> Acción, Aventura, Fantasía</p>
+                        <p><strong>Dónde verlo:</strong> Crunchyroll</p>
+
+                        <a href="https://www.crunchyroll.com/es/series/G6NQ5DWZ6/jujutsu-kaisen" target="_blank" rel="noopener noreferrer">
+                            Ver anime
+                        </a>
+                    </div>
+                </details>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Universo Anime. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
