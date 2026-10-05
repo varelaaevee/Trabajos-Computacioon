@@ -15,7 +15,11 @@
         <p>Tu sitio web de confianza para descubrir los mejores animes del momento!</p>
     </header>
 
-    <main>
+    <main class="sitio web anime"> 
+    <div style="display: flex; justify-content: center; align-items: flex-start;gap:3vw; flex-wrap: wrap;"
+
+            
+                 
         <h2>Los animes mas vistos de esta semana!</h2>
 
         <section class="contenedor">
@@ -73,7 +77,7 @@
 
             </div>
 
-            <!-- JUJUTSU KAISEN -->
+        
             <div class="tarjeta jujutsu">
                 <img src="https://i.pinimg.com/1200x/99/ef/83/99ef837028463d4f940b63c2b288222b.jpg" alt="Jujutsu Kaisen">
                 <h3>Jujutsu Kaisen</h3>
@@ -84,7 +88,7 @@
                     <summary>
                         <span class="ver-mas">Ver más</span>
                         <span class="ver-menos">Ver menos</span>
-                    </summary>
+                    </summary
 
                     <div class="informacion">
                         <p><strong>Autor:</strong> Gege Akutami</p>
@@ -101,6 +105,7 @@
             </div>
 
         </section>
+    </div>
     </main>
 
     <footer>
