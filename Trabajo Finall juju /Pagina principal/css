@@ -1,0 +1,15 @@
+.body{
+    background-color: #101827;
+    color:#f1f5f9;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.h1 {
+    color:#67e8f9;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
