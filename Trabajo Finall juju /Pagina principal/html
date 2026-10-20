@@ -1,1 +1,17 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo Final - Inicio</title>   
+</head>
+
+<body>
+    <div class="box">
+        <h1>Sitio web Proyecto Final</h1>
+        <p>Selecciona una pagina del menu para explorar el tema que este interesado!</p>
+        <div class="menu">
+           
+        </div>
+    </div>
+</body>
