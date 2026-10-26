@@ -3,15 +3,44 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Trabajo Final - Inicio</title>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final</title>
+    <link rel="stylesheet" href="principal.css">
 </head>
-
 <body>
-    <div class="box">
-        <h1>Sitio web Proyecto Final</h1>
-        <p>Selecciona una pagina del menu para explorar el tema que este interesado!</p>
-        <div class="menu">
-           
-        </div>
-    </div>
+
+    <header>
+        <h2>INFO_WEB</h2>
+        <p>Trabajo final de Informática</p>
+    </header>
+
+    <main>
+        <section class="inicio">
+            <p>TRABAJO ESCOLAR</p>
+            <h1>Aprendiendo sobre tecnología</h1>
+            <p>Un recorrido por los temas vistos durante el año.</p>
+        </section>
+
+        <section class="temas">
+            <h2>Temas del año</h2>
+
+            <div class="contenedor">
+                <a href="ogdelascompus.html">Organización de computadoras</a>
+                <a href="redes.html">Redes</a>
+                <a href="arduino.html">Arduino</a>
+                <a href="pseint.html">PSeInt y lógica</a>
+                <a href="html.html">HTML</a>
+                <a href="css.html">CSS</a>
+                <a href="javascript.html">JavaScript</a>
+                <a href="perfil.html">Mi perfil</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto escolar · Informática</p>
+    </footer>
+
 </body>
+</html>
+
