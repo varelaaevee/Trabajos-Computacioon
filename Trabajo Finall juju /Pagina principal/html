@@ -1,23 +1,94 @@
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
-    <link rel="stylesheet" href="principal.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="paginaprincipal.css">
 </head>
-<body>
 
+<body>
     <header>
-        <h2>INFO_WEB</h2>
-        <p>Trabajo final de Informática</p>
+        <h2>web pro</h2>
+        <href="perfil.html"></href>
     </header>
 
     <main>
-        <section class="inicio">
-            <p>TRABAJO ESCOLAR</p>
-            <h1>Aprendiendo sobre tecnología</h1>
+        <section class="inicioo">
+            <p class="subtitulo">Sitio web Computacioon jeje</p>
+            <h1> Resumen de todo lo visto en el año lool</h1>
+            
+            <href="#temas" class="enlace">Temillas pros </href>
+        </section>
+        
+        <section class="temas">
+            <h2>
+                Selecciona un tema el cual estes interesado!
+            </h2>
+
+           <button class="Computadora" onclick="location.href='Computadora.html'">
+   
+            💻
+            <h3>Computadora</h3>
+        </button>
+         
+       
+
+        <button class="redes" onclick="location.href='redes.html'">
+            🌐
+            <h3>Redes</h3>
+        </button>
+        <script src="redes.js"></script>
+
+
+        <button class="arduino" onclick="location.href='arduino.html'">
+            🤖
+            <h3>Arduino</h3>
+        </button>
+
+        <button class="logica" onclick="location.href='logica.html'">
+            🧠
+            <h3>Lógica</h3>
+        </button>
+
+        <button class="pseint" onclick="location.href='pseint.html'">
+            📝
+            <h3>PSeInt</h3>
+        </button>
+
+        <button class="matrices" onclick="location.href='matrices.html'">
+            🔢
+            <h3>Matrices</h3>
+        </button>
+
+        <button class="html" onclick="location.href='html.html'">
+            💻
+            <h3>HTML</h3>
+        </button>
+
+        <button class="css" onclick="location.href='css.html'">
+            🎨
+            <h3>CSS</h3>
+        </button>
+
+        <button class="javascript" onclick="location.href='javascript.html'">
+            ⚡
+            <h3>JavaScript</h3>
+        </button>
+
+
+        </section>
+       
+    </main>
+
+     
+    <footer>
+     <p> 2026 Sitio Web Computación. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>ía</h1>
             <p>Un recorrido por los temas vistos durante el año.</p>
         </section>
 
