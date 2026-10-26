@@ -2,26 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Organización de las Computadoras</title>
-    <link rel="stylesheet" href="ogdelascompus.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="computadora.css">
 
 </head>
 <body>
     <div class="box">
-        <h2>Componentes</h2>
-        <p class="pregunta">¿Cuál componente se encarga de procesar datos y ejecutar instrucciones?</p>
-        <button class="btn" onclick="validarOrg('A')">A- Memoria RAM</button>
-        <button class="btn" onclick="validarOrg('B')">B- CPU (Procesador)</button>
+        <h2>Organización de las Computadoras</h2>
+        <p class="pregunta">¿Cuál componente se encarga de procesar datos y ejecutar instrucciones?
+          <button class="btn" onclick="validarOrg('A')">A Memoria RAM</button>
+          <button class="btn" onclick="validarOrg('B')">B CPU (Procesador)</button>
+        </p>
 
-        <p class="pregunta">¿Qué valor devuelve la función digitalRead() si mides un pin que está configurado como INPUT pero no tiene nada conectado físicamente (pin flotante)?</p>
-        <button class="btn" onclick="validarOrg1('C')">c- El valor es inestable (puede alternar aleatoriamente entre HIGH y LOW)</button>
-        <button class="btn" onclick="validarOrg1('D')">d- Devuelve estrictamente un valor de 0 (LOW)</button>
+        <p class="pregunta">¿quien es mas grande racing o independiente?
+         <button class="btn" onclick="validarOrg1('C')">c racing</button>
+         <button class="btn" onclick="validarOrg1('D')">d independiente</button>
+        </p>
+
         <br>
-        
-
         <a class="back" href="paginaprincipal.html">← Volver al Inicio</a>
+
     </div>
-    <script src="ogdelascompus.js"></script>
+    <script src="computadora.js"></script>
 </body>
 </html>
-
