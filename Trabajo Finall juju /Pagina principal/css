@@ -1,15 +1,106 @@
-.body{
-    background-color: #101827;
-    color:#f1f5f9;
-    font-family: 'Times New Roman', Times, serif;
+body {
+    background-color: #202020;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 30px;
 }
 
-.h1 {
-    color:#67e8f9;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    border-bottom: 1px solid #444444;
+}
+
+header h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+header a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.inicio {
+    padding: 60px 8%;
+    border-bottom: 1px solid #444444;
+}
+
+.subtitulo {
+    color: #999999;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.inicio h1 {
+    font-size: 36px;
+    max-width: 500px;
+}
+
+.inicio p {
+    color: #bbbbbb;
+    line-height: 1.6;
+}
+
+.enlace {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 1px solid #777777;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.temas {
+    padding: 35px 8%;
+}
+
+.temas h2 {
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.tarjeta {
+    display: block;
+    padding: 20px;
+    background-color: #292929;
+    border: 1px solid #444444;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.tarjeta span {
+    color: #999999;
+    font-size: 12px;
+}
+
+.tarjeta h3 {
+    font-size: 18px;
+}
+
+.tarjeta p {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tarjeta:hover {
+    background-color: #353535;
+}
+
+footer {
+    padding: 20px;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
+    color: #999999;
+    border-top: 1px solid #444444;
+    font-size: 13px;
 }
 
