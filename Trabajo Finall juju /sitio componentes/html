@@ -2,27 +2,29 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="computadora.css">
-
 </head>
 <body>
     <div class="box">
-        <h2>Organización de las Computadoras</h2>
-        <p class="pregunta">¿Cuál componente se encarga de procesar datos y ejecutar instrucciones?
-          <button class="btn" onclick="validarOrg('A')">A Memoria RAM</button>
-          <button class="btn" onclick="validarOrg('B')">B CPU (Procesador)</button>
-        </p>
+        <h2>Organización de los Componentes de una Computadora</h2>
+        <p class="pregunta">Pregunta sobre el tema</p>
 
-        <p class="pregunta">¿quien es mas grande racing o independiente?
-         <button class="btn" onclick="validarOrg1('C')">c racing</button>
-         <button class="btn" onclick="validarOrg1('D')">d independiente</button>
-        </p>
+        <button class="btn" onclick="validar('A')">
+            A) Primera respuesta
+        </button>
+
+        <button class="btn" onclick="validar('B')">
+            B) Segunda respuesta
+        </button>
 
         <br>
-        <a class="back" href="paginaprincipal.html">← Volver al Inicio</a>
 
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
     </div>
+
     <script src="computadora.js"></script>
 </body>
 </html>
