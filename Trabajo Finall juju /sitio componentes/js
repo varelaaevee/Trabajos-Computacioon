@@ -1,0 +1,7 @@
+function validarOrg(respuesta) {
+    if (respuesta === 'B') {
+        alert("¡Correcto! ");
+    } else {
+        alert("Respuesta incorrecta. ¡Vuelve a intentarlo!");
+    }
+}
