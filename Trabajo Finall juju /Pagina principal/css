@@ -1,11 +1,12 @@
 body {
     background-color: #202020;
     color: #eeeeee;
-    font-family: Arial, sans-serif;
+    font-family: "sunday_ginger";
     margin: 0;
 }
 
 header {
+    background-color: #181818;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +15,7 @@ header {
 }
 
 header h2 {
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 2px;
 }
 
@@ -23,9 +24,22 @@ header a {
     text-decoration: none;
 }
 
-.inicio {
-    padding: 60px 8%;
+header a:hover {
+    color: #999999;
+}
+
+.inicioo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 55px 8%;
+    background-color: #1b1b1b;
     border-bottom: 1px solid #444444;
+}
+
+.texto-inicio {
+    flex: 1;
 }
 
 .subtitulo {
@@ -34,12 +48,12 @@ header a {
     letter-spacing: 2px;
 }
 
-.inicio h1 {
+.inicioo h1 {
     font-size: 36px;
     max-width: 500px;
 }
 
-.inicio p {
+.descripcion {
     color: #bbbbbb;
     line-height: 1.6;
 }
@@ -47,60 +61,84 @@ header a {
 .enlace {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 15px;
+    padding: 10px 18px;
     border: 1px solid #777777;
     color: #eeeeee;
     text-decoration: none;
 }
 
+.enlace:hover {
+    background-color: #333333;
+}
+
+.imagen-inicio {
+    width: 100%;
+    max-width: 400px;
+    height: 230px;
+    object-fit: cover;
+    border: 1px solid #444444;
+    filter: grayscale(100%);
+}
+
+
 .temas {
+    display: none;
     padding: 35px 8%;
 }
 
 .temas h2 {
     font-size: 27px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .contenedor {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    margin-top: 25px;
 }
 
-.tarjeta {
-    display: block;
-    padding: 20px;
+.contenedor button {
     background-color: #292929;
-    border: 1px solid #444444;
     color: #eeeeee;
-    text-decoration: none;
+    border: 1px solid #444444;
+    padding: 20px;
+    min-height: 115px;
+    font-size: 25px;
+    cursor: pointer;
 }
 
-.tarjeta span {
-    color: #999999;
-    font-size: 12px;
+.contenedor button h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0;
 }
 
-.tarjeta h3 {
-    font-size: 18px;
-}
-
-.tarjeta p {
-    color: #aaaaaa;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.tarjeta:hover {
-    background-color: #353535;
+.contenedor button:hover {
+    background-color: #383838;
+    border-color: #888888;
 }
 
 footer {
-    padding: 20px;
-    text-align: center;
+    background-color: #181818;
     color: #999999;
+    text-align: center;
+    padding: 18px;
     border-top: 1px solid #444444;
     font-size: 13px;
+}
+
+.temas button img {
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 7px;
+    filter: grayscale(100%);
+    margin-bottom: 5px;
+}
+
+
+.temas button:hover img {
+    filter: grayscale(40%);
 }
 
