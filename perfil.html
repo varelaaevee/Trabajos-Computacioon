@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Mi espacio</h2>
+
+        <nav>
+            <a href="paginaprincipal.html">Inicio</a>
+            <a href="perfil.html">Perfil</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Pantalla de inicio de sesión -->
+        <section id="inicioSesion" class="contenedor">
+
+            <div class="icono">👤</div>
+
+            <h1>Bienvenido/a</h1>
+
+            <p>Ingresá tu nombre para acceder a tu perfil.</p>
+
+            <input type="text" id="nombreUsuario" placeholder="Escribí tu nombre">
+
+            <button onclick="iniciarSesion()">Ingresar</button>
+
+            <p id="mensaje"></p>
+
+        </section>
+
+        <!-- Perfil del usuario -->
+        <section id="perfilUsuario" class="contenedor" style="display: none;">
+
+            <div class="avatar" id="inicial"></div>
+
+            <h1 id="saludo">¡Hola!</h1>
+
+            <p>Bienvenido/a a tu espacio personal.</p>
+
+            <div class="datos">
+                <p><strong>Nombre:</strong> <span id="nombrePerfil"></span></p>
+                <p><strong>Estado:</strong> Sesión iniciada</p>
+            </div>
+
+            <p class="descripcion">
+                Desde acá podés acceder al contenido del proyecto y recorrer
+                los diferentes temas.
+            </p>
+
+            <a href="paginaprincipal.html" class="boton-volver">
+                Volver al inicio
+            </a>
+
+            <button class="cerrar" onclick="cerrarSesion()">
+                Cerrar sesión
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto de Computación | 2026</p>
+    </footer>
+
+    <script src="perfil.js"></script>
+
+</body>
+</html>

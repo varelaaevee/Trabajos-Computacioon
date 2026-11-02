@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="javascript.css">
+</head>
+<body>
+    <div class="box">
+
+         <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>JavaScript</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre el lenguaje de programación JavaScript y su aplicación en el desarrollo web.
+         
+        </p>
+
+
+        <p class="pregunta">¿Qué es JavaScript a grandes rasgos en el desarrollo web?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A) Un motor de renderizado de bases de datos que acelera la velocidad de descarga de las imágenes pesadas de un sitio.
+
+        <button class="btn" onclick="pregunta1('B')">
+            B)   Un lenguaje de programación que se ejecuta en el navegador y permite crear contenido dinámico, interactivo y con lógica del lado del cliente.
+        </button>
+
+
+        <p class="pregunta">¿Qué es el "DOM" (Document Object Model) en JavaScript?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A) Una base de datos oculta que guarda las contraseñas de los usuarios de forma local.
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B) La estructura en forma de árbol que representa a la página HTML, permitiendo a JavaScript modificar textos, estilos y elementos de forma dinámica. 
+        </button> 
+
+
+        <p class="pregunta">¿Para qué sirve el método addEventListener() en JavaScript?</p>
+        <button class="btn" onclick="pregunta3('A')">
+            A) Para escuchar y reaccionar a las acciones del usuario, como hacer un clic, mover el mouse o presionar una tecla.
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) Para escuchar y reaccionar a las acciones del usuario, como hacer un clic, mover el mouse o presionar una tecla.
+        </button>
+
+
+        <p class="pregunta">¿Qué es un objeto JSON en el desarrollo con JavaScript?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A) Un formato de texto liviano y estándar utilizado para intercambiar datos entre el navegador y un servidor de forma organizada. 
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) Un tipo de cable de red de alta velocidad compatible con pantallas táctiles.
+        </button>
+
+        
+        <p class="pregunta">¿Cuál es la función del método .filter() aplicado a una lista en JavaScript?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)    Borrar de forma definitiva todos los datos numéricos que tiene guardados el arreglo en memory.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B)  Crear un nuevo arreglo que contiene únicamente los elementos del array original que cumplan con una condición específica.
+
+        </button>
+
+        <hr class="separador">
+
+        <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

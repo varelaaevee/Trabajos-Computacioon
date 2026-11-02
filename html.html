@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <div class="box">
+
+         <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>HTML</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre el lenguaje HTML y su aplicación en el desarrollo web.
+        </p>
+
+
+        <p class="pregunta">• ¿Qué es fundamentalmente HTML en el desarrollo web?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A)  El lenguaje de programación que se encarga de hacer los cálculos matemáticos dentro de una página.
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B)  Un lenguaje de marcado que define la estructura básica y el esqueleto del contenido de una página web.
+        </button>
+
+
+        <p class="pregunta">¿Cuál es la función del navegador web (como Chrome o Firefox) con respecto a un archivo HTML?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A)  Guardar de forma permanente las fotos de la página dentro del disco duro de tu computadora.
+
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B)   Leer el código de etiquetas HTML y traducirlo visualmente para que el usuario vea la página armada.
+
+
+
+        <p class="pregunta">¿Cómo se componen habitualmente las etiquetas en HTML para envolver un texto?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A) Con una etiqueta de apertura entre signos menor y mayor (ej: <p>) y una de cierre con una barra inclinada (ej: </p>). 
+
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) Con signos de pregunta al principio y al final de cada palabra obligatoriamente.
+ 
+        </button>
+
+
+        <p class="pregunta">¿Qué etiqueta se utiliza de forma correcta para crear un enlace o hipervínculo que te lleve a otra página web?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A) La etiqueta <link> escrita de forma suelta en medio de un párrafo.
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) La etiqueta <a> acompañada del atributo href
+        </button>
+
+        
+        <p class="pregunta">¿Cuál es la etiqueta adecuada si querés insertar una imagen en tu sitio web?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)  La etiqueta <picture_view>.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B)   La etiqueta <img> acompañada del atributo src para indicar la ruta de la foto.
+        </button>
+
+        <hr class="separador">
+
+       <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="html.js"></script>
+</body>
+</html>

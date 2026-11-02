@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+
+            <h1>Bienvenido</h1>
+
+            <p class="subtitulo">Proyecto de Informática</p>
+
+            <div class="linea"></div>
+
+            <h2>Ingresá tu nombre</h2>
+
+            <p class="descripcion">
+                Para comenzar, escribí tu nombre y accedé al contenido del proyecto.
+            </p>
+
+            <form onsubmit="iniciarSesion(event)">
+
+                <label for="nombre">Nombre de usuario</label>
+
+                <input 
+                    type="text" 
+                    id="nombre" 
+                    placeholder="Escribí tu nombre..."
+                    required
+                >
+
+                <button type="submit">Ingresar</button>
+
+            </form>
+
+            <p class="pie">Proyecto escolar de Informática</p>
+
+        </div>
+
+    </div>
+
+    <script src="perfil.js"></script>
+
+</body>
+</html>

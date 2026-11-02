@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="redes.css">
+</head>
+<body>
+    <div class="box">
+
+        <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>Redes</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre las redes de computadoras y su aplicación en la comunicación de datos.
+        </p>
+
+        <p class="pregunta">¿Cuál es la función principal de un Router en una red?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A) Almacenar todas las páginas web del mundo para que carguen más rápido.
+
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B) Interconectar diferentes redes y dirigir el tráfico de datos para que lleguen a su destino.
+        </button>
+
+
+        <p class="pregunta">¿Qué diferencia principal hay entre una red LAN y una red WAN?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A) La LAN cubre un área geográfica pequeña (como una casa) y la WAN cubre áreas grandes (como un país o el planeta).
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B) La LAN es siempre inalámbrica y la WAN utiliza únicamente cables de fibra óptica subterráneos.
+
+        </button>
+
+
+        <p class="pregunta">¿Para qué sirve un Módem?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A) Para duplicar la velocidad de internet contratada mediante un software interno.
+
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) Para modular y demodular las señales, convirtiendo la señal del proveedor de internet en datos digitales que la PC entiende.
+        </button>
+
+
+        <p class="pregunta">¿Qué es una Dirección IP?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A) Una etiqueta numérica única que identifica a un dispositivo en una red.
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) La contraseña secreta que se usa para conectarse al Wi-Fi de forma segura.
+
+        </button>
+
+        
+        <p class="pregunta">¿Qué es, en pocas palabras, una red de computadoras?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A) Un conjunto de dispositivos conectados entre sí para compartir información y recursos. 
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B) Un programa que se instala para que el sistema operativo funcione más rápido.
+        </button>
+
+        <hr class="separador">
+
+         <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="redes.js"></script>
+</body>
+</html>
