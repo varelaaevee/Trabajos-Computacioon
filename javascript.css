@@ -1,9 +1,4 @@
-/* Estilos generales: colores, tipografía y medidas de la página. */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background-color: #171717;
@@ -49,7 +44,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Botones de las opciones del cuestionario. */
+
 .btn {
     display: block;
     width: 100%;
@@ -97,11 +92,8 @@ h2 {
     font-size: 14px;
 }
 
-.back:hover { color: #ffffff; }
-
-/* Ajustes para que la página se adapte a pantallas pequeñas. */
-@media (max-width: 600px) {
-    body { padding: 15px 10px; }
-    .box { padding: 23px 18px; }
-    h2 { font-size: 25px; }
+.back:hover { 
+    color: #ffffff; 
 }
+
+
