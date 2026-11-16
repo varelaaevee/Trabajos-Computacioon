@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseint - Proyecto de Informática</title>
+    <link rel="stylesheet" href="pseint.css">
+</head>
+<body>
+    <div class="box">
+
+        <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>PSeInt</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre el entorno de programación PSeInt y su aplicación en el desarrollo de algoritmos.
+        </p>
+
+
+        <p class="pregunta1">• ¿Qué es PSeInt?
+</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A)  Un programa para diseñar páginas web profesionales con bases de datos.
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B)  Un entorno educativo diseñado para aprender los conceptos básicos de lógica y algoritmos usando pseudocódigo en español.
+        </button>
+
+
+        <p class="pregunta2">¿Cuál es la palabra clave obligatoria con la que inicia todo algoritmo en PSeInt?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A)  Algoritmo (o Proceso)
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B) Inicio_Programa.
+        </button>
+
+
+        <p class="pregunta3">¿Qué comando usás en PSeInt si querés mostrar un texto o un mensaje en la pantalla para el usuario?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A) El comando Leer.
+
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) El comando Escribir.
+        </button>
+
+
+        <p class="pregunta">Si querés guardar la edad de una persona (ej: 25) en una variable en PSeInt, ¿cómo deberías definirla primero?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A)   Definir edad Como Entero;.
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) Definir edad Como Cadena;.
+        </button>
+
+        
+        <p class="pregunta">¿Qué hace el botón de "Paso a Paso" (el ícono de los pies verdes) en PSeInt?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)  Ejecuta el algoritmo lentamente, mostrándote con una flecha qué línea se está procesando en cada momento.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B)  Borra todas las líneas de código que tengan errores de ortografía.
+        </button>
+
+        <hr class="separador">
+
+        <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="pseint.js"></script>
+</body>
+</html>
