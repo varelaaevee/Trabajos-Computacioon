@@ -72,8 +72,7 @@ function pregunta5(respuesta) {
 function actualizarResultados() {
     document.getElementById("correctas").textContent = correctas;
     document.getElementById("incorrectas").textContent = incorrectas;
-    document.getElementById("respondidas").textContent =
-        correctas + incorrectas;
+    document.getElementById("respondidas").textContent = correctas + incorrectas;
 }
 
 
