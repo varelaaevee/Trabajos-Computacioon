@@ -1,9 +1,8 @@
-// Comprueba que el usuario haya ingresado su nombre y curso.
 if (
     sessionStorage.getItem("nombreUsuario") === null ||
     sessionStorage.getItem("cursoUsuario") === null
 ) {
-    // Si no hay datos guardados, vuelve al inicio de sesión.
+ 
     window.location.href = "index.html";
 }
 
