@@ -1,4 +1,5 @@
 
+
 let correctas = 0;
 let incorrectas = 0;
 let respondidas = [false, false, false, false, false];
@@ -72,8 +73,7 @@ function pregunta5(respuesta) {
 function actualizarResultados() {
     document.getElementById("correctas").textContent = correctas;
     document.getElementById("incorrectas").textContent = incorrectas;
-    document.getElementById("respondidas").textContent =
-        correctas + incorrectas;
+    document.getElementById("respondidas").textContent = correctas + incorrectas;
 }
 
 function reiniciarCuestionario() {
@@ -96,15 +96,19 @@ function reiniciarCuestionario() {
 let matriz = [
     ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
 
-    ["Matemática", "Lengua", "Historia", "Inglés", "Biología"],
+    ["Historia","Geografia","Ed Fisica","------","------"],
 
-    ["Lengua", "Matemática", "Geografía", "Computación", "Historia"],
+    ["Lengua", "TDLR", "Ingles", "Lengua", "Historia"    ],
 
-    ["Inglés", "Biología", "Matemática", "Lengua", "Geografía"],
+    ["Lengua", "TDLR", "Ingles", "Lengua", "Historia"    ],
 
-    ["Historia", "Computación", "Inglés", "Biología", "Matemática"],
+    ["TDLR", "Fisica", "Matematicas", "Ingles", "Matematicas"],
 
-    ["Geografía", "Historia", "Computación", "Matemática", "Lengua"]
+    ["TDLR", "Fisica", "Matematicas", "Quimica", "Matemáticas"],
+
+    ["Ciudadania", "Quimica", "Matematicas", "Geografia", "Fisica"],
+
+    ["Ciudadania","Quimica", "--------", "Geografia", "Fisica"],
 ];
 
 let tabla = document.getElementById("horario");
