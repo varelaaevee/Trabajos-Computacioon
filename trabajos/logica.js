@@ -34,14 +34,45 @@ function comprobarRespuesta(numero, respuesta, correcta, explicacion) {
     }
 }
 
-function pregunta1(respuesta) { comprobarRespuesta(1, respuesta, 'B', "Un algoritmo tiene pasos ordenados para resolver una tarea."); }
-function pregunta2(respuesta) { comprobarRespuesta(2, respuesta, 'A', "Una condición permite elegir una acción según si se cumple o no."); }
-function pregunta3(respuesta) { comprobarRespuesta(3, respuesta, 'B', "Un bucle permite repetir instrucciones."); }
-function pregunta4(respuesta) { comprobarRespuesta(4, respuesta, 'A', "Un diagrama de flujo representa los pasos de un algoritmo."); }
-function pregunta5(respuesta) { comprobarRespuesta(5, respuesta, 'B', "Un error de sintaxis ocurre cuando una instrucción está mal escrita."); }
-function pregunta6(respuesta) { comprobarRespuesta(6, respuesta, 'A', "101 en binario equivale a 5 en decimal."); }
-function pregunta7(respuesta) { comprobarRespuesta(7, respuesta, 'B', "110 en binario equivale a 6 en decimal."); }
-function pregunta8(respuesta) { comprobarRespuesta(8, respuesta, 'A', "1000 en binario equivale a 8 en decimal."); }
+function pregunta1(respuesta) { 
+    comprobarRespuesta(1, respuesta, 'B', 
+    "Un algoritmo tiene pasos ordenados para resolver una tarea."); 
+}
+
+function pregunta2(respuesta) {
+    comprobarRespuesta(2, respuesta, 'A', 
+    "Una condición permite elegir una acción según si se cumple o no."); 
+}
+
+function pregunta3(respuesta) {
+    comprobarRespuesta(3, respuesta, 'B',
+    "Un bucle permite repetir instrucciones."); 
+}
+
+function pregunta4(respuesta) {
+    comprobarRespuesta(4, respuesta, 'A',
+    "Un diagrama de flujo representa los pasos de un algoritmo.");
+}
+
+function pregunta5(respuesta) {
+    comprobarRespuesta(5, respuesta, 'B',
+    "Un error de sintaxis ocurre cuando una instrucción está mal escrita."); 
+}
+
+function pregunta6(respuesta) {
+    comprobarRespuesta(6, respuesta, 'A',
+    "101 en binario equivale a 5 en decimal."); 
+}
+
+function pregunta7(respuesta) {
+    comprobarRespuesta(7, respuesta, 'B', 
+    "110 en binario equivale a 6 en decimal."); 
+}
+
+function pregunta8(respuesta) {
+    comprobarRespuesta(8, respuesta, 'A',
+    "1000 en binario equivale a 8 en decimal."); 
+}
 
 function actualizarResultados() {
     document.getElementById("correctas").textContent = correctas;
