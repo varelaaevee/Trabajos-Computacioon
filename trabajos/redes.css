@@ -100,4 +100,6 @@ h2 {
     font-size: 14px;
 }
 
-.back:hover { color: #ffffff; }
+.back:hover {
+    color: #ffffff; 
+}
