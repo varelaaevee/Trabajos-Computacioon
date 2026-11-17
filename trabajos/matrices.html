@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrices - Cuestionario</title>
+    <link rel="stylesheet" href="matrices.css">
+</head>
+<body>
+    <div class="box">
+
+        <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>Matrices</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre las matrices y su aplicación en la lógica de programación.
+        </p>
+
+
+        <p class="pregunta">¿Qué es una matriz en la lógica de programación?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A) Una estructura de datos bidimensional que organiza la información en filas y columnas, como si fuera una tabla de Excel.
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B)  Un tipo de variable especial que solo sirve para guardar contraseñas y textos encriptados.
+        </button>
+
+
+        <p class="pregunta">¿Cómo se define una matriz de números enteros de 3 filas y 4 columnas en PSeInt?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A)   Se escribe directamente Crear Tabla con Filas = 3 y Columnas = 4;.
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B)  Primero se define la variable como entero y luego se usa la instrucción Dimension matriz[3,4];. 
+        </button>
+
+
+        <p class="pregunta">¿Qué estructura lógica se utiliza normalmente para recorrer o llenar una matriz completa con datos?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A)  Una estructura condicional Si... Entonces repetida muchas veces.
+
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) Dos bucles Para anidados (uno adentro del otro). 
+        </button>
+
+
+        <p class="pregunta">¿Se pueden mezclar tipos de datos diferentes (como guardar un número y un texto) dentro de una misma matriz en PSeInt?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A) No, todos los elementos de la matriz deben ser del mismo tipo de dato que se definió al principio.
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) Sí, se puede guardar un texto en la primera fila y un número decimal en la segunda sin problemas.
+        </button>
+
+        
+        <p class="pregunta">¿Para cuál de los siguientes problemas prácticos es obligatorio o ideal usar una matriz en lugar de variables simples?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)  Para guardar el nombre, apellido y teléfono de un único usuario del sistema.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B)  Para programar el tablero de un juego de Ta-Te-Ti (Tres en línea) o el plano de un laberinto
+        </button>
+        
+        <hr class="separador">
+
+        <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+        
+       
+        </section>
+        <hr class="separador">
+
+        <section class="horario-seccion">
+
+            <h2>Ejemplo práctico de una matriz</h2>
+
+            <p class="descripcion">
+                Una matriz también puede utilizarse para organizar
+                información, como en este ejemplo de un horario escolar.
+            </p>
+
+            <h3 class="titulo-horario">Mi Horario Escolar</h3>
+
+            <div class="tabla-contenedor">
+                <table id="horario"></table>
+            </div>
+
+            <p class="nota-horario">
+                La tabla se genera mediante JavaScript utilizando
+                una matriz y dos bucles for.
+            </p>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+
+    </div>
+
+    <script src="matrices.js"></script>
+</body>
+</html>

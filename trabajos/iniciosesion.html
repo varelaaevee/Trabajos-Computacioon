@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Web Pro</title>
+    <link rel="stylesheet" href="iniciosesion.css">
+</head>
+<body>
+    <main class="contenedor">
+        <section class="tarjeta">
+
+            <p class="subtitulo">SITIO WEB DE COMPUTACIÓN</p>
+            <h1>Bienvenido/a</h1>
+            <div class="linea"></div>
+            <p class="descripcion">Ingresá tus datos para acceder al sitio.</p>
+
+
+            <form id="formularioIngreso">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"
+                       placeholder="Escribí tu nombre" required>
+
+                <label for="curso">Curso</label>
+                <input type="text" id="curso" name="curso"
+                       placeholder="Ej: 3ro" required>
+
+                <button type="submit">Ingresar al sitio</button>
+                <p id="mensaje" class="mensaje"></p>
+            </form>
+
+            <p class="pie">Proyecto escolar de Computación- 2026</p>
+        </section>
+    </main>
+
+    <script src="iniciosesion.js"></script>
+</body>
+</html>

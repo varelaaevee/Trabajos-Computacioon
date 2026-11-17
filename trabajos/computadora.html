@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Computadora - Cuestionario</title>
+    <link rel="stylesheet" href="computadora.css">
+</head>
+<body>
+    <div class="box">
+
+        <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+
+         <h2>Organización de los Componentes de una Computadora</h2>
+
+         <p class="descripcion">
+            Cuestionario sobre los componentes y su funcionamiento.
+        </p>
+
+        <hr class="separador">
+
+
+        <p class="pregunta1">¿Cuál es la función principal de la CPU en una computadora?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A) Procesar datos y ejecutar las instrucciones de los programas.
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B) Almacenar de forma permanente las fotos y archivos del user
+        </button>
+
+
+        <p class="pregunta2">¿Qué sucede con la información guardada en la memoria RAM cuando se apaga la computadora?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A)  Se guarda automáticamente en el disco rígido de forma permanente.
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B)  Se borra por completo.
+        </button>
+
+
+        <p class="pregunta3">¿Qué función cumple la Placa Madre (Motherboard) en el sistema?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A)  Conectar e interconectar todos los componentes de la computadora entre sí.
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B)  Generar la energía eléctrica para que la computadora encienda.
+
+        </button>
+
+
+        <p class="pregunta4">¿Cuál de los siguientes es un periférico de ENTRADA?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A) El monitor
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) El teclado
+        </button>
+
+        
+        <p class="pregunta5">¿Qué es el firmware BIOS (o UEFI) en una computadora?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)El primer programa que se ejecuta al encender la PC para chequear que todo el hardware funcione.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B)  El sistema de seguridad que impide que entre polvo a los componentes.
+        </button>
+
+
+        <hr class="separador">
+
+        <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/5</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 5 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="computadora.js"></script>
+</body>
+</html>

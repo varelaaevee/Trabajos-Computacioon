@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lógica - Cuestionario</title>
+    <link rel="stylesheet" href="logica.css">
+</head>
+<body>
+    <div class="box">
+
+       <p class="categoria">TRABAJO FINAL · COMPUTACIÓN</p>
+         <h2>Lógica </h2>
+
+         <p class="descripcion">
+            Cuestionario sobre la lógica de programación y su aplicación en el desarrollo de algoritmos.
+        </p>
+
+        <p class="pregunta">¿Qué es un Algoritmo en informática?</p>
+
+        <button class="btn" onclick="pregunta1('A')">
+            A)  Un virus informático que borra los archivos del disco duro automáticamente.
+        </button>
+
+        <button class="btn" onclick="pregunta1('B')">
+            B) Una serie de pasos ordenados y finitos para resolver un problema o realizar una tarea.
+        </button>
+
+
+        <p class="pregunta">¿Cómo funciona una estructura condicional "SI... ENTONCES" (IF... ELSE) en un programa?</p>
+
+        <button class="btn" onclick="pregunta2('A')">
+            A)  Evalúa una condición: si se cumple hace una acción, y si no se cumple hace otra distinta.
+        </button>
+
+        <button class="btn" onclick="pregunta2('B')">
+            B) Repite la misma línea de código infinitamente hasta que la computadora se quede sin batería.
+        </button>
+
+
+        <p class="pregunta">¿Cuál es el objetivo principal de usar un "Bucle" o "Lazo" (como un While o For) en la lógica de un código?</p>
+
+        <button class="btn" onclick="pregunta3('A')">
+            A) Cambiar el color de la pantalla para que el programador no se canse la vista.
+
+        </button>
+
+        <button class="btn" onclick="pregunta3('B')">
+            B) Repetir un bloque de instrucciones varias veces mientras se cumpla una condición, evitando escribir el mismo código una y otra vez.
+        </button>
+
+
+        <p class="pregunta">¿Para qué sirve un "Diagrama de Flujo" en la etapa de diseño de un programa?</p>
+
+        <button class="btn" onclick="pregunta4('A')">
+            A)  Representar visualmente el camino que siguen los datos y las decisiones de un algoritmo mediante figuras geométricas.
+        </button>
+
+        <button class="btn" onclick="pregunta4('B')">
+            B) Medir la velocidad de los impulsos eléctricos que viajan por el cableado de la computadora.
+        </button>
+
+        
+        <p class="pregunta">¿A qué se refiere un "Error de Sintaxis" cuando escribimos un código?</p>
+
+        <button class="btn" onclick="pregunta5('A')">
+            A)  A que un componente físico del hardware se desconectó de la placa madre.
+        </button>
+
+        <button class="btn" onclick="pregunta5('B')">
+            B) A que rompiste las reglas del lenguaje de programación, como olvidarte un punto y coma o cerrar un paréntesis.
+        </button>
+       
+        <hr class="separador">
+
+        <h2>Sistema binario</h2>
+        <p class="descripcion">El sistema binario utiliza solamente dos números: 0 y 1. Las computadoras trabajan con este sistema para representar información.</p>
+
+        <p class="pregunta">6. ¿Qué número decimal representa el binario 101?</p>
+        <button class="btn" onclick="pregunta6('A')">A) 5</button>
+        <button class="btn" onclick="pregunta6('B')">B) 4</button>
+
+        <p class="pregunta">7. ¿Cómo se escribe el número decimal 6 en binario?</p>
+        <button class="btn" onclick="pregunta7('A')">A) 100</button>
+        <button class="btn" onclick="pregunta7('B')">B) 110</button>
+
+        <p class="pregunta">8. ¿Qué número decimal representa el binario 1000?</p>
+        <button class="btn" onclick="pregunta8('A')">A) 8</button>
+        <button class="btn" onclick="pregunta8('B')">B) 10</button>
+
+        <hr class="separador">
+
+        <section class="resultados">
+           <h3>Resultados del cuestionario</h3>
+
+           <p>Preguntas respondidas: <span id="respondidas">0</span>/8</p>
+           <p>Respuestas correctas: <span id="correctas">0</span></p>
+           <p>Respuestas incorrectas: <span id="incorrectas">0</span></p>
+
+           <p>La nota final y el porcentaje aparecerán al terminar las 8 preguntas.</p>
+ 
+         <button class="btn" onclick="reiniciarCuestionario()">
+            Volver a realizar el cuestionario
+         </button>
+
+        </section>
+
+        <a class="back" href="paginaprincipal.html">
+            ← Volver al Inicio
+        </a>
+    </div>
+
+    <script src="logica.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="paginaprincipal.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+    <a href="paginaprincipal.html" class="logo">
+        <span class="logo-punto"></span>
+        web pro
+    </a>
+
+    <a href="perfil.html" class="enlace-perfil">
+        Mi Perfil <span>🔧</span>
+    </a>
+</header>
+
+    <main>
+
+        
+        <section class="inicioo">
+
+            <div class="texto-inicio">
+                <p class="subtitulo">SITIO WEB DE COMPUTACIÓN</p>
+
+                <h1>Resumen de todo lo visto en el año</h1>
+
+                <p class="descripcion">
+                    Un recorrido por los temas que trabajamos durante el año en Computacion
+                </p>
+
+                <button class="enlace" onclick="mostrarTemas()">
+                   Ver los temas ↓
+               </button>
+            </div>
+
+            <img src="https://static.vecteezy.com/system/resources/previews/078/312/211/non_2x/computer-monitor-keyboard-and-mouse-line-drawing-minimalist-black-background-vector.jpg"
+                 alt="Computadora"
+                 class="imagen-inicio">
+
+        </section>
+
+        <section class="temas" id="temas">
+
+            <p class="subtitulo">CONTENIDOS</p>
+            <h2>Temas del año</h2>
+            <p class="descripcion">
+                Seleccioná el tema que te interesa!
+            </p>
+
+           <div class="contenedor">
+
+           <button class="Computadora" onclick="location.href='computadora.html'">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf1InY66fObGj1MLchFZkGBt442Eq8ioqsB29PGbrqw&s=10" alt="Computadora">
+              <h3>Computadora</h3>
+           </button>
+
+           <button onclick="location.href='redes.html'">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQqwSqEHUNiud48LwKgTIlEQVd_V4kVumRYX_M3lHvJw&s=10" alt="Redes">
+             <h3>Redes</h3>
+           </button>
+
+           <button onclick="location.href='arduino.html'">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuxCYA4ttPw_fTKAKyRGQdKuO4Jkzow77AcGOO-0fHA&s=10" alt="Arduino">
+             <h3>Arduino</h3>
+           </button>
+
+           <button onclick="location.href='logica.html'">
+             <img src="https://www.shutterstock.com/image-vector/binary-code-rain-background-digital-260nw-2792175463.jpg" alt="Lógica">
+             <h3>Lógica</h3>
+           </button>
+
+           <button onclick="location.href='pseint.html'">
+             <img src="https://img.magnific.com/fotos-premium/codigo-abstracto-renderizado-3d-espacio-virtual-codigo-computadora-esta-doblado-forma-cinta_232104-1076.jpg?semt=ais_hybrid&w=740&q=80" alt="PSeInt">
+             <h3>PSeInt</h3>
+           </button>
+
+           <button onclick="location.href='matrices.html'">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsOUpcyIFovoRoKpYwC9ujry45LaVIwBodqGp_Yc0Uw&s=10" alt="Matrices">
+             <h3>Matrices</h3>
+           </button>
+
+           <button onclick="location.href='html.html'">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLlkQkhZDZX1dZC0igaj9BUNnbuDa4z_HJ68hNbci7Q&s=10" alt="HTML">
+              <h3>HTML</h3>
+           </button>
+
+           <button onclick="location.href='css.html'">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_yJf3_F-1UHysZOXiHpTn7DjSldK7x5MWWu3-CwEXg&s=10" alt="CSS">
+             <h3>CSS</h3>
+           </button>
+
+           <button onclick="location.href='javascript.html'">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkCt6M3Nuvy2jbPoqc6etzOlqlNsNhfXUB6eEtkThcw&s=10" alt="JavaScript">
+             <h3>JavaScript</h3>
+           </button>
+
+           </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 - Sitio Web de Computación</p>
+    </footer>
+    
+   <script src="paginaprincipal.js"></script>
+
+</body>
+</html>
